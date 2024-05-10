@@ -12,6 +12,9 @@ import Product from "./Product.jsx";
 // import ProductTab
 import ProductTab from "./ProductTab.jsx";
 
+// import MsgBox 
+import MsgBox from "./MsgBox.jsx";
+
 // this app function is a app component 
 function App() {
   return (
@@ -24,6 +27,11 @@ function App() {
       {/* <Product/>
       <Product/>
       <Product/> */}
+
+
+      <MsgBox userName="Ashu" textColor="pink"/>
+      <MsgBox userName="Ashutosh" textColor="blue"/>
+      <MsgBox userName="Patil" textColor="green"/>
 
       <ProductTab/>
 
