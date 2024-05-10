@@ -19,9 +19,7 @@ function ProductTab(){
 
     return(
         <>
-            <Product title="Mobile" 
-                     price={10000} 
-                     features6={options4}
+            {/* <Product title="Mobile" price={10000} features6={options4}
 
 
                     //  features={options} 
@@ -30,8 +28,11 @@ function ProductTab(){
                     //  features4={{a: "4GB RAM", b: "64GB Storage", c: "13MP Camera"}} //we can also write object like this
                     //  features5={options3}
             />
-            {/* <Product title="Tablet" price={40000}/>
-            <Product title="Laptop" price={50000}/> */}
+             */}
+
+            <Product title="Mobile" price={30000}/>
+            <Product title="Tablet" price={40000}/>
+            <Product title="Laptop" price={50000}/>
         </>
     );
 }
