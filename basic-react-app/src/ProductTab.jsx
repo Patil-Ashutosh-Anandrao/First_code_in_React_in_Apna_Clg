@@ -1,9 +1,23 @@
 import Product from "./Product.jsx";
 
 function ProductTab(){
+
+    // store value in array 
+    let options = ["4GB RAM", "64GB Storage", "13MP Camera"];
+    
+    // store value in object 
+    let options2 = {a: "4GB RAM", b: "64GB Storage", c: "13MP Camera"};
+
     return(
         <>
-            <Product title="Mobile" price="30,000"/>
+            <Product title="Mobile" 
+                     price={10000} 
+                     features={options} 
+                     features2={options2}
+                     
+                     features3={["4GB RAM", "64GB Storage", "13MP Camera"]}  //we can also write array like this
+                     features4={{a: "4GB RAM", b: "64GB Storage", c: "13MP Camera"}} //we can also write object like this
+            />
             <Product title="Tablet" price={40000}/>
             <Product title="Laptop" price={50000}/>
         </>
